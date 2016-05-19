@@ -23,3 +23,6 @@ puppet module install --modulepath=/root/bootstrap/modules hunner/hiera --versio
 
 puppet apply --modulepath=/root/bootstrap/modules  r10k.pp
 puppet apply --modulepath=/root/bootstrap/modules  hiera.pp
+
+
+r10k deploy environment -pv
